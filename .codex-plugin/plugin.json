@@ -1,0 +1,37 @@
+{
+  "name": "zotero-study",
+  "version": "0.1.0",
+  "description": "Search local Zotero papers, read annotations, and save bilingual study notes.",
+  "author": {
+    "name": "langzekun01",
+    "url": "https://github.com/langzekun01"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Zotero Study · 文献学习",
+    "shortDescription": "检索 Zotero 文献、阅读批注并保存学习笔记",
+    "longDescription": "连接本机 Zotero，读取文献、笔记、PDF 批注与索引正文。根据用户请求，使用 Zotero 自带授权在原文献下新增学习笔记。",
+    "developerName": "langzekun01",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find papers in my Zotero library",
+      "Explain a paper using my highlights and annotations",
+      "Save a bilingual study note to a Zotero paper"
+    ]
+  },
+  "mcpServers": "./.mcp.json",
+  "keywords": [
+    "zotero",
+    "papers",
+    "research",
+    "notes",
+    "bilingual"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/langzekun01/zotero-study",
+  "repository": "https://github.com/langzekun01/zotero-study"
+}

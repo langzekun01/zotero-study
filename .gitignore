@@ -1,0 +1,27 @@
+# Generated, machine-specific configuration
+.mcp.json
+.env
+.env.*
+*.local.json
+*.log
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.DS_Store
+.idea/
+.vscode/
+
+# Never add a personal Zotero library or reading material
+storage/
+local-data/
+*.sqlite
+*.sqlite-*
+*.db
+*.pdf
+*.epub
+*.zip
